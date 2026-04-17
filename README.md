@@ -3,7 +3,7 @@
     <img src="https://github.com/getcompanion-ai/feynman/blob/main/assets/hero.png" alt="Feynman CLI" width="800" />
   </a>
 </p>
-<p align="center">开源 AI 研究代理</p>
+<p align="center">开源 AI 研究智能体</p>
 <p align="center">
   <a href="https://feynman.is/docs"><img alt="文档" src="https://img.shields.io/badge/docs-feynman.is-0d9668?style=flat-square" /></a>
   <a href="https://github.com/getcompanion-ai/feynman/blob/main/LICENSE"><img alt="许可证" src="https://img.shields.io/github/license/getcompanion-ai/feynman?style=flat-square" /></a>
@@ -80,7 +80,7 @@ $ feynman "what do we know about scaling laws"
 → 搜索论文和网络资源，生成带引用的研究简报
 
 $ feynman deepresearch "mechanistic interpretability"
-→ 多代理并行调研，综合分析和验证
+→ 多智能体并行调研，综合分析和验证
 
 $ feynman lit "RLHF alternatives"
 → 文献综述，包含共识、分歧和开放问题
@@ -113,9 +113,9 @@ $ feynman replicate "chain-of-thought improves math"
 
 ---
 
-### 代理
+### 智能体
 
-四个捆绑的研究代理，自动调度。
+四个捆绑的研究智能体，自动调度。
 
 - **Researcher** — 跨论文、网页、仓库、文档收集证据
 - **Reviewer** — 模拟同行评审，分级反馈
@@ -138,7 +138,7 @@ $ feynman replicate "chain-of-thought improves math"
 
 ### 工作原理
 
-基于 [Pi](https://github.com/badlogic/pi-mono) 构建代理运行时，使用 [alphaXiv](https://www.alphaxiv.org/) 进行论文搜索和分析，并通过 CLI 工具实现计算和执行。功能以 [Pi 技能](https://github.com/badlogic/pi-skills) 形式交付 —— Markdown 指令文件在启动时同步到 `~/.feynman/agent/skills/`。每个输出都有来源支撑 —— 声明链接到论文、文档或仓库的直接 URL。
+基于 [Pi](https://github.com/badlogic/pi-mono) 构建智能体运行时，使用 [alphaXiv](https://www.alphaxiv.org/) 进行论文搜索和分析，并通过 CLI 工具实现计算和执行。功能以 [Pi 技能](https://github.com/badlogic/pi-skills) 形式交付 —— Markdown 指令文件在启动时同步到 `~/.feynman/agent/skills/`。每个输出都有来源支撑 —— 声明链接到论文、文档或仓库的直接 URL。
 
 ---
 

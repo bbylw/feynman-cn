@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Feynman — 开源 AI 研究代理</title>
+  <title>Feynman — 开源 AI 研究智能体</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -195,7 +195,7 @@
       <div class="hidden md:flex items-center gap-8 text-sm text-muted">
         <a href="#features" class="hover:text-white transition-colors">功能</a>
         <a href="#workflows" class="hover:text-white transition-colors">工作流</a>
-        <a href="#agents" class="hover:text-white transition-colors">代理</a>
+        <a href="#agents" class="hover:text-white transition-colors">智能体</a>
         <a href="#tools" class="hover:text-white transition-colors">工具</a>
         <a href="#install" class="hover:text-white transition-colors">安装</a>
       </div>
@@ -233,7 +233,7 @@
           </h1>
 
           <p class="mt-6 text-lg lg:text-xl text-muted leading-relaxed max-w-[50ch] animate-fade-up delay-2">
-            Feynman 是一个开源 CLI 研究代理。搜索论文、综述文献、审计代码、复现实验 —— 一行命令，全部搞定。
+            Feynman 是一个开源 CLI 研究智能体。搜索论文、综述文献、审计代码、复现实验 —— 一行命令，全部搞定。
           </p>
 
           <div class="mt-10 flex flex-wrap gap-4 animate-fade-up delay-3">
@@ -255,7 +255,7 @@
             </div>
             <div class="flex items-center gap-2">
               <svg class="w-4 h-4 text-accent-light" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              多代理协作
+              多智能体协作
             </div>
             <div class="flex items-center gap-2">
               <svg class="w-4 h-4 text-accent-light" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
@@ -293,7 +293,7 @@
                 <span class="text-muted ml-1">"mechanistic interpretability"</span>
               </div>
               <div class="animate-slide-right delay-6 text-muted pl-4 border-l-2 border-accent/20">
-                → 多代理并行调研，综合分析和验证
+                → 多智能体并行调研，综合分析和验证
               </div>
 
               <div class="animate-slide-right delay-6 mt-2">
@@ -338,7 +338,7 @@
           从提问到发表，<br/>覆盖完整研究链路
         </h2>
         <p class="mt-4 text-muted text-lg leading-relaxed">
-          自然语言输入或使用斜杠命令，Feynman 自动编排代理完成研究任务。
+          自然语言输入或使用斜杠命令，Feynman 自动编排智能体完成研究任务。
         </p>
       </div>
 
@@ -349,7 +349,7 @@
             <svg class="w-5 h-5 text-accent-light" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/></svg>
           </div>
           <h3 class="font-display font-semibold text-white text-lg mb-2">深度调研</h3>
-          <p class="text-muted text-sm leading-relaxed">多代理并行搜索论文与网络资源，自动综合分析与交叉验证。</p>
+          <p class="text-muted text-sm leading-relaxed">多智能体并行搜索论文与网络资源，自动综合分析与交叉验证。</p>
           <code class="mt-4 inline-block text-xs text-accent-light font-mono bg-accent/5 px-2 py-1 rounded">/deepresearch &lt;topic&gt;</code>
         </div>
 
@@ -471,9 +471,9 @@
   <section id="agents" class="py-24 lg:py-32">
     <div class="max-w-[1400px] mx-auto px-6 lg:px-8">
       <div class="text-center max-w-2xl mx-auto mb-16">
-        <p class="text-accent-light text-sm font-medium tracking-wide uppercase mb-3">智能代理</p>
+        <p class="text-accent-light text-sm font-medium tracking-wide uppercase mb-3">智能体</p>
         <h2 class="font-display font-bold text-3xl lg:text-5xl tracking-tighter text-white">
-          四个专业代理，协同工作
+          四个专业智能体，协同工作
         </h2>
         <p class="mt-4 text-muted text-lg leading-relaxed">
           自动调度，各司其职，覆盖从信息收集到最终验证的完整流程。
@@ -603,7 +603,7 @@
           构建在成熟的开源基础之上
         </h2>
         <p class="text-muted text-lg leading-relaxed mb-12">
-          基于 <a href="https://github.com/badlogic/pi-mono" class="text-accent-light hover:underline" target="_blank">Pi</a> 构建代理运行时，使用 <a href="https://www.alphaxiv.org/" class="text-accent-light hover:underline" target="_blank">alphaXiv</a> 进行论文搜索和分析，通过 CLI 工具实现计算和执行。功能以 Pi 技能形式交付 —— Markdown 指令文件在启动时同步到 <code class="text-sm font-mono bg-white/5 px-1.5 py-0.5 rounded">~/.feynman/agent/skills/</code>。
+          基于 <a href="https://github.com/badlogic/pi-mono" class="text-accent-light hover:underline" target="_blank">Pi</a> 构建智能体运行时，使用 <a href="https://www.alphaxiv.org/" class="text-accent-light hover:underline" target="_blank">alphaXiv</a> 进行论文搜索和分析，通过 CLI 工具实现计算和执行。功能以 Pi 技能形式交付 —— Markdown 指令文件在启动时同步到 <code class="text-sm font-mono bg-white/5 px-1.5 py-0.5 rounded">~/.feynman/agent/skills/</code>。
         </p>
 
         <div class="grid sm:grid-cols-3 gap-6">
@@ -619,7 +619,7 @@
           </div>
           <div class="p-6 rounded-2xl bg-surface-800/40 border border-white/5">
             <div class="text-3xl font-display font-bold text-accent-light mb-2">4</div>
-            <p class="text-sm text-muted">专业代理</p>
+            <p class="text-sm text-muted">专业智能体</p>
             <p class="text-xs text-slate-500 mt-1">自动调度，协同完成研究任务</p>
           </div>
         </div>
