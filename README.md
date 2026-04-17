@@ -169,3 +169,7 @@ npm run build
 ```
 
 [文档](https://feynman.is/docs) · [MIT 许可证](https://github.com/getcompanion-ai/feynman/blob/main/LICENSE)
+
+---
+
+> 本项目汉化自 [https://github.com/getcompanion-ai/feynman](https://github.com/getcompanion-ai/feynman)
